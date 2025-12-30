@@ -1,0 +1,14 @@
+{
+  "name": "chat-toxicity-moderator",
+  "version": "1.0.0",
+  "description": "A real-time chat application that detects and rephrases toxic messages using AI",
+  "scripts": {
+    "dev": "uvicorn chat_moderation.main:app --reload",
+    "start": "uvicorn chat_moderation.main:app --host 0.0.0.0 --port $PORT",
+    "vercel-build": "echo 'Build completed'",
+    "build": "echo 'Build completed'"
+  },
+  "keywords": ["chat", "moderation", "ai", "toxicity", "filtering"],
+  "author": "Anadi Sharma",
+  "license": "MIT"
+}

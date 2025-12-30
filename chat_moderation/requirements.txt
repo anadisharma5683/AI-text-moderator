@@ -1,0 +1,13 @@
+fastapi
+uvicorn[standard]
+python-dotenv
+google-generativeai
+torch
+transformers
+detoxify
+protobuf
+openai
+jinja2
+accelerate
+websockets
+anyio

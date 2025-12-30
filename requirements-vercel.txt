@@ -1,0 +1,11 @@
+fastapi
+uvicorn[standard]
+python-dotenv
+google-generativeai
+openai
+jinja2
+websockets
+anyio
+groq
+mangum
+httpx
